@@ -60,7 +60,7 @@ int main()
 		if(value != 0)
 			error_pos+=position;
 	}
-	if(error_pos == 1)
+	if(error_pos == 0)
 		printf("The received Code Word is correct.\n");
 	else
 		printf("Error at bit position: %d\n",error_pos);
